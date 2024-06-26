@@ -1,0 +1,95 @@
+/* Общие стили */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  text-align: center;
+}
+
+/* Стили для формы входа */
+.signin-form {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.signin-form h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Стили для полей ввода */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.input-field::placeholder {
+  color: #777;
+}
+
+/* Стили для кнопки отправки */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1db954;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #1ed760;
+}
+
+/* Стили для сообщения об ошибке */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Стили для разделителя */
+.divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Стили для кнопки входа через Google */
+.google-signin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.7s;
+  margin: 0 auto;
+}
+
+.google-signin-button:hover {
+  border-radius: 50px;
+  width: 80%;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

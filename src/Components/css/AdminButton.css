@@ -1,0 +1,26 @@
+/* styles.css */
+
+.modal-dark .modal-content {
+    background-color: #343a40; /* Цвет фона модального окна */
+    color: white; /* Цвет текста в модальном окне */
+  }
+  
+  .modal-dark .modal-header,
+  .modal-dark .modal-footer {
+    background-color: #23272b; /* Цвет фона заголовка и подвала модального окна */
+  }
+  
+  .modal-dark .modal-title {
+    color: white; /* Цвет заголовка модального окна */
+  }
+  
+  .modal-dark .form-label,
+  .modal-dark .form-check-label,
+  .modal-dark .btn {
+    color: white; /* Цвет текста меток, чекбоксов и кнопок в модальном окне */
+  }
+  
+  .modal-dark .btn-secondary {
+    background-color: #6c757d; /* Цвет фона кнопки Отмена */
+  }
+  

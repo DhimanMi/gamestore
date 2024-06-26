@@ -1,0 +1,111 @@
+.filter-panel {
+  background-color: #1b1e22;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.filter-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-panel {
+  margin-bottom: 1rem;
+}
+
+.search-input-container {
+  position: relative;
+}
+
+.search-input {
+  background-color: #2b3038;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px 10px 15px;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.clear-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ccc;
+}
+
+.accordion-container {
+  margin-top: 10px;
+}
+
+.accordion-button {
+  background-color: #292d35;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.accordion-item {
+  background-color: #363b45;
+  border-radius: 10px;
+}
+
+.accordion-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.accordion-body {
+  background-color: #363b45;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-body.show {
+  max-height: 500px;
+}
+
+.form-check-input {
+  background-color: #2b3038;
+  border-color: #5b636e;
+}
+
+.form-check-input:checked {
+  background-color: #428bca;
+  border-color: #428bca;
+}
+
+.sort-select {
+  background-color: #2b3038;
+  color: #fff;
+  border: 1px solid #5b636e;
+}
+
+.apply-button, .reset-button {
+  background-color: #428bca;
+  border-color: #357ebd;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.apply-button:hover, .reset-button:hover {
+  background-color: #3276b1;
+  border-color: #285e8e;
+}

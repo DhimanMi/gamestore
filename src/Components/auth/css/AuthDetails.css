@@ -1,0 +1,43 @@
+/* Общие стили */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #121212;
+  text-align: center;
+}
+
+.auth-details {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.auth-details p {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Стили для сообщения о выходе из системы */
+.signed-out-message {
+  color: #fff;
+}
+
+/* Стили для кнопки выхода из системы */
+.signout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1db954;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signout-button:hover {
+  background-color: #1ed760;
+}
